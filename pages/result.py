@@ -10,8 +10,8 @@ class DuckDuckGoResultPage:
   
   # Locators
 
-  RESULT_LINKS = (By.CSS_SELECTOR, 'a.result__a')
-  SEARCH_INPUT = (By.ID, 'search_form_input')
+  RESULT_LINKS = (By.CSS_SELECTOR, 'a[data-testid=result-title-a]')
+  SEARCH_INPUT = (By.NAME, 'q')
 
   # Initializer
 
